@@ -4,8 +4,8 @@ public class MIPS extends convert_methods {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in); // Create a Scanner object
         String[] command_form_R = new String[6];
-        String[] command_form_I = new String[10];
-        String[] command_form_J = new String[10];
+        String[] command_form_I = new String[6];
+        String[] command_form_J = new String[6];
 
         System.out.println("Enter your command formt"); // R/I/J
         String value = myObj.nextLine(); // Read user input format
